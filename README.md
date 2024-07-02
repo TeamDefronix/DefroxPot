@@ -1,4 +1,3 @@
-Arvind
 <div align="center"><p>
     <h1>DefroxPot</h1>
      <img style="filter: brightness(200%)" src="https://github.com/TeamDefronix/DefroxPot/assets/64286654/c8b70e39-59d1-4a4c-9ada-74b7dba0e923" width="50%"><br>
