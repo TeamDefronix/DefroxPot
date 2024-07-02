@@ -167,20 +167,19 @@ The Network Honeypot mimics a network environment to detect, log and analyze net
 - `Network` tabs belong to network honeypot. You can navigate to check logs.
 
 # Screenshots
-![image](https://github.com/incoggeek/DefroxPot/assets/145888193/38dbccda-b44e-4bf0-8a80-3dd6e553a2b1)
+![d1](https://github.com/TeamDefronix/DefroxPot/assets/104693696/f9f2965d-37ec-4750-9287-673c2608b065)
 
-![image](https://github.com/incoggeek/DefroxPot/assets/145888193/9e38b989-4179-46d7-a830-0544284b5340)
+![d2](https://github.com/TeamDefronix/DefroxPot/assets/104693696/5bfb2d44-6c8d-4da8-aaee-badb4b21b897)
 
-![image](https://github.com/incoggeek/DefroxPot/assets/145888193/ea94fe79-2bd3-4c7b-b940-f3d9a15d21c2)
+![d3](https://github.com/TeamDefronix/DefroxPot/assets/104693696/09b4b4e5-5872-432e-a465-0f401e52c4c4)
 
-![image](https://github.com/incoggeek/DefroxPot/assets/145888193/cf11e27e-cca1-4ceb-9939-aba62996fe48)
+![d4](https://github.com/TeamDefronix/DefroxPot/assets/104693696/0ea91eea-d965-42c4-81d1-4b440a0e2ab3)
 
-![image](https://github.com/incoggeek/DefroxPot/assets/145888193/d9f527a1-febc-41e5-8a03-237fadc0309c)
+![d5](https://github.com/TeamDefronix/DefroxPot/assets/104693696/804c461e-61f4-4850-827f-b787a80a3c55)
 
-![image](https://github.com/incoggeek/DefroxPot/assets/145888193/e8f1a06a-bb38-4838-94a5-207e8445b4be)
+![d6](https://github.com/TeamDefronix/DefroxPot/assets/104693696/3abda9aa-d3ad-479f-8f11-f2ab5600b6f8)
 
-![image](https://github.com/incoggeek/DefroxPot/assets/145888193/c12bab45-ce72-4b23-8e7c-b6734889f39b)
-
+![d7](https://github.com/TeamDefronix/DefroxPot/assets/104693696/7c5f1dd9-9a5c-4ea2-9690-c21777162665)
 
 # Contacts
 
