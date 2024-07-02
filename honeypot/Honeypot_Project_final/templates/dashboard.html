@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Security Expert Website</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body onload="myFunction()">
+  <!-- Hero Section -->
+  <section class="hero text-center">
+    <div class="container">
+      <h1>Welcome to Security Expert</h1>
+      <p>Protecting your business from cyber threats</p>
+      <div class="jumbotron text-center">
+        <div class="container">
+          <h1 class="display-3">Hi, there</h1>
+          <p class="lead">Protecting your business from cyber threats</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Security Expert</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <!-- Arvind -->
+          <a class="nav-link" href="/about"><i class="fa-sharp fa-solid fa-info"></i> About</a>
+          <div class="dropdown">
+
+            <a class="nav-link"><i class="fa-sharp fa-solid fa-blog"></i>Blogs<i class="fas fa-caret-right"></i></a>
+            <div class="dropdown-content">
+              <ul>
+                <a href="https://www.cbsnews.com/"><i class="fa-sharp fa-solid fa-newspaper"></i>News</a>
+                <a href="https://youtu.be/pF-3S-HTJSg?si=DJ0xSUmWS3_-h6rN"><i
+                    class="fa-sharp fa-solid fa-video"></i>Videos</a>
+              </ul>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn"><i class="fa-sharp fa-solid fa-user"></i>USER</button>
+            <div class="dropdown-content">
+              <ul>
+                <a class="nav-link" href="#"><i class="fa-sharp fa-solid fa-phone"></i>Contact</a>
+                <button type="button" class="btn" onclick="window.location.href='/logout'"><iclass="fa fa-sign-out" aria-hidden="true"></i>Logout</button>
+              </ul>
+            </div>
+          </div>
+          <!-- Arvind -->
+      </div>
+    </div>
+    </div>
+  </nav>
+  </nav>
+  <!-- Features Section -->
+  <div class="container features-section">
+    <div class="row">
+      <div class="col-lg-4">
+        <a class="button-3" role="button"
+          href="https://www.bing.com/ck/a?!&&p=1e9211a815e31bd4JmltdHM9MTcwNzE3NzYwMCZpZ3VpZD0xZmVjMDY1Yy0wMGJiLTYzODItMWJjZC0xNWE2MDEwOTYyNzEmaW5zaWQ9NTI3OQ&ptn=3&ver=2&hsh=3&fclid=1fec065c-00bb-6382-1bcd-15a601096271&psq=Penetration+testing+blogg&u=a1aHR0cHM6Ly93d3cuc3BsdW5rLmNvbS9lbl91cy9ibG9nL2xlYXJuL3BlbmV0cmF0aW9uLXRlc3RpbmcuaHRtbA&ntb=1">
+          <div class="feature">
+            <i class="fas fa-code"></i>
+            <h3>Penetration Testing</h3>
+            <p>Identify and address vulnerabilities before attackers do</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4">
+        <a class="button-3" role="button"
+          href="https://www.digitalguardian.com/blog/what-data-protection-principles-strategies-trends">
+          <div class="feature">
+            <i class="fas fa-lock"></i>
+            <h3>Data Protection</h3>
+            <p>Encryption and access control to secure sensitive data</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4">
+        <a class="button-3" role="button"
+          href="https://www.cm-alliance.com/cybersecurity-blog/ai-prompt-engineering-in-cybersecurity">
+          <div class="feature">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Cyber Security</h3>
+            <p>Advanced solutions to safeguard your digital assets</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+<!-- Slider -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+      aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+      aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+      aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://picsum.photos/id/237/1000/600" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://picsum.photos/id/238/1000/600" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://picsum.photos/id/239/1000/600" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Footer -->
+<footer class="footer text-center">
+  <div>
+    <p>&copy; 2024 Security Expert. All Rights Reserved.</p>
+    <h3>Follow Us</h3>
+    <a href="#">Facebook</a>
+    <a href="#">Twitter</a>
+    <a href="#">LinkedIn</a>
+    <a href="#">Instagram</a>
+  </div>
+</footer>
+<!-- Bootstrap JS and Font Awesome JS -->
+<!-- Custom JS -->
+<script src="/static/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+<noscript>
+  <style>
+    body,
+    html {
+      overflow: hidden
+    }
+
+    #JsEnable {
+      display: none
+    }
+
+    /* Enable Javascript Popup */
+    #Key2bloggingNoscript {
+      background: rgba(0, 0, 0, 0.85);
+      padding: 0;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      top: -100px;
+      right: 0;
+      z-index: 1000;
+      opacity: 1;
+      visibility: visible;
+      height: auto;
+    }
+
+    #Key2bloggingNoscript svg {
+      width: 100px;
+      height: 100px
+    }
+
+    #Key2bloggingNoscript svg path {
+      fill: #e43f3f
+    }
+
+    #Key2bloggingNoscript .isiNoscript {
+      background-color: #010a13;
+      color: #e29797;
+      position: absolute;
+      text-align: center;
+      padding: 0 30px 30px 30px;
+      margin: auto;
+      top: 30%;
+      left: 0;
+      right: 0;
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 1.5em;
+      max-width: 670px;
+      box-shadow: 0 20px 10px -10px rgba(0, 0, 0, 0.15);
+      border: 15px solid rgba(0, 0, 0, .07);
+      overflow: hidden;
+      transition: all .6s cubic-bezier(.25, .8, .25, 1);
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      backface-visibility: visible;
+      transition: all .2s ease-in-out, visibility 0s;
+      transform-origin: bottom center;
+      pointer-events: auto;
+      transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1);
+      opacity: 1;
+      animation: key2BloggingWobble .5s;
+      -moz-animation: key2BloggingWobble .5s;
+      -webkit-animation: key2BloggingWobble .5s;
+      -o-animation: key2BloggingWobble .5s
+    }
+
+    #Key2bloggingNoscript .isiNoscript:hover {
+      box-shadow: 0 20px 10px -10px rgba(170, 47, 47, 0.2);
+    }
+
+    #Key2bloggingNoscript .isiNoscript h4,
+    #Key2bloggingNoscript .isiNoscript .JSEnable {
+      display: inline-block;
+      background: rgba(0, 0, 0, .07);
+      padding: 5px 25px 15px 25px;
+      font-size: 2.2rem;
+      font-weight: 500;
+      margin-bottom: 20px
+    }
+  </style>
+</noscript>
+
+<noscript>
+  <div id='Key2bloggingNoscript'>
+    <div class='isiNoscript'><span class='JSEnable'>Enable Javascript</span>
+      <br />
+      <svg viewBox='0 0 24 24'>
+        <path
+          d='M3,3H21V21H3V3M7.73,18.04C8.13,18.89 8.92,19.59 10.27,19.59C11.77,19.59 12.8,18.79 12.8,17.04V11.26H11.1V17C11.1,17.86 10.75,18.08 10.2,18.08C9.62,18.08 9.38,17.68 9.11,17.21L7.73,18.04M13.71,17.86C14.21,18.84 15.22,19.59 16.8,19.59C18.4,19.59 19.6,18.76 19.6,17.23C19.6,15.82 18.79,15.19 17.35,14.57L16.93,14.39C16.2,14.08 15.89,13.87 15.89,13.37C15.89,12.96 16.2,12.64 16.7,12.64C17.18,12.64 17.5,12.85 17.79,13.37L19.1,12.5C18.55,11.54 17.77,11.17 16.7,11.17C15.19,11.17 14.22,12.13 14.22,13.4C14.22,14.78 15.03,15.43 16.25,15.95L16.67,16.13C17.45,16.47 17.91,16.68 17.91,17.26C17.91,17.74 17.46,18.09 16.76,18.09C15.93,18.09 15.45,17.66 15.09,17.06L13.71,17.86Z' />
+      </svg>
+      <br />Javascript is disabled on your Browser. To use
+      <data:blog.title.escaped /> turn on Javascript in the browser settings.
+    </div>
+  </div>
+</noscript>
+</body>
+
+</html>

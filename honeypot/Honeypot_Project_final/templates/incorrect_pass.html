@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>Incorrect Username or Password</title>
+</head>
+
+<body class="bg-light" onload="myFunction()">
+
+    <noscript>
+        <!-- Fallback content for browsers with JavaScript disabled -->
+        <div class="popup-overlay">
+            <div class="popup">
+                <h1>Enable JavaScript</h1>
+                <p>This site requires JavaScript to function properly. Please enable JavaScript in your browser settings and refresh the page.</p>
+            </div>
+        </div>
+    </noscript>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text text-center">The username or password you entered is incorrect. <br> Please try again.</p>
+                        <div class="text-center">
+                            <a href="{{ url_for('login') }}" class="btn btn-primary">Go Back to Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="/static/js/script.js"></script>
+    <!-- Bootstrap JS (Optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
