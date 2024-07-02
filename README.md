@@ -30,7 +30,7 @@
     </a>
   </p>
   <p align="center">
-    <img src="https://stars.medv.io/TeamDefronix/Cyberonix.svg", title="commits"/>
+    <img src="https://stars.medv.io/TeamDefronix/DefroxPot.svg", title="commits"/>
   </p>
 
 <h1 align="left">Description</h1>
