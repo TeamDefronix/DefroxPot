@@ -1,6 +1,6 @@
 <div align="center"><p>
     <h1>DefroxPot</h1>
-     <img style="filter: brightness(200%)" src="https://github.com/TeamDefronix/DefroxPot/assets/122822828/3906c622-1958-480d-a972-26843924ea00" width="50%"><br>
+     <img style="filter: brightness(200%)" src="https://github.com/TeamDefronix/DefroxPot/assets/64286654/c8b70e39-59d1-4a4c-9ada-74b7dba0e923" width="50%"><br>
     <img src="https://forthebadge.com/images/badges/made-with-python.svg">
     <img src="https://forthebadge.com/images/badges/built-with-love.svg">
     <br><br>
