@@ -181,6 +181,7 @@ The Network Honeypot mimics a network environment to detect, log and analyze net
 
 ![d7](https://github.com/TeamDefronix/DefroxPot/assets/104693696/7c5f1dd9-9a5c-4ea2-9690-c21777162665)
 
+
 # Contacts
 
 <p align="left">
