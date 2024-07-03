@@ -98,7 +98,7 @@ The Network Honeypot mimics a network environment to detect, log and analyze net
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/repo/HoneyGuard.git
+    git clone https://github.com/TeamDefronix/DefroxPot
     cd honeypot
     ```
 
